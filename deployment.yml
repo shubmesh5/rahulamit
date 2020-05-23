@@ -14,8 +14,6 @@ spec:
         app: webserver
        
 
-HELLO
-
     spec:
       containers:
        - name: container1
