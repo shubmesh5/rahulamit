@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: mypod
+  labels:
+    app: webserver
+    type: front-end
+
+=rahul
+spec:
+  containers:
+    - name: container1
+      image: nginx:alpine
